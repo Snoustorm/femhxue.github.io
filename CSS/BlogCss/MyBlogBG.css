@@ -1,0 +1,19 @@
+/* styles.css */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('../../Images/BG1.jpg'); /* 背景图片路径 */
+    background-size: contain; /* 背景图片覆盖整个视口 */
+    background-position: center; /* 背景图片居中 */
+    background-repeat: no-repeat; /* 背景图片不重复 */
+    background-attachment: fixed; /* 背景图片固定，不随滚动条滚动 */
+    color: #fff; /* 文字颜色 */
+}
+
+.container {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5); /* 半透明背景色，用于突出文字 */
+    border-radius: 10px;
+    margin: 20px;
+}
